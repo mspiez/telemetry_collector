@@ -1,0 +1,20 @@
+---
+server_address:
+  description: "Telemetry server address/fqdn"
+  type: "string"
+  required: true
+  default: "10.10.20.70"
+server_port:
+  description: "Telemetry server port"
+  type: integer
+  default: 57021
+username:
+  description: "Telemetry server username"
+  type: "string"
+  required: true
+  default: "admin"
+password:
+  description: "Telemetry server username"
+  type: "string"
+  required: true
+  default: "admin"

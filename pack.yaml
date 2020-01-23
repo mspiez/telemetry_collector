@@ -1,0 +1,9 @@
+---
+name: telemetry_collector
+description: Runs a collector for telemetry data as a sensor and dispatches rendered logs as triggers.
+keywords:
+  - telemetry
+  - collector
+version: 0.1.0
+author: Michal Spiez
+email: mspiez@gmail.com
