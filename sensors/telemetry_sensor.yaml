@@ -1,12 +1,10 @@
 ---
 class_name: "TelemetrySensor"
-entry_point: "telemetry_collector.py"
-description: "XR telemetry a sensor. Rendered logs are dispatched as triggers."
+entry_point: "telemetry_sensor.py"
+description: "Test sensor that emits triggers for XR telemetry."
 trigger_types:
-  - name: "log"
-    description: "Log instance from telemetry collector"
+  -
+    name: "event2"
+    description: "An example trigger for XR telemetry."
     payload_schema:
       type: "object"
-      properties:
-        payload:
-          type: "object"
