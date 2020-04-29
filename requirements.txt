@@ -1,4 +1,4 @@
 googleapis-common-protos
-grpcio
-protobuf
+#grpcio
+#protobuf
 pyaml
