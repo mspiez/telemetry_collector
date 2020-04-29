@@ -8,4 +8,4 @@ version: 0.1.0
 author: Michal Spiez
 email: mspiez@gmail.com
 python_versions:
-  - "3.7"
+  - "3"
