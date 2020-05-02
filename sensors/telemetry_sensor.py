@@ -13,8 +13,8 @@ import yaml
 from google.protobuf.json_format import MessageToJson
 import grpc
 
-sys.path.append("./etc/src/genpy-ipv6-nd")
-sys.path.append("./src/genpy-ipv6-nd/cisco_ios_xr_ipv6_nd_oper/ipv6_node_discovery/nodes/node/neighbor_interfaces/neighbor_interface/host_addresses/host_address/")
+sys.path.append("./../etc/src/genpy-ipv6-nd")
+sys.path.append("./../etc/src/genpy-ipv6-nd/cisco_ios_xr_ipv6_nd_oper/ipv6_node_discovery/nodes/node/neighbor_interfaces/neighbor_interface/
 
 import telemetry_pb2
 from mdt_grpc_dialin import mdt_grpc_dialin_pb2, mdt_grpc_dialin_pb2_grpc
